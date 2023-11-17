@@ -1,0 +1,15 @@
+---
+vector_config: 
+ sources:
+  in:
+    type: "stdin"
+
+ sinks:
+   out:
+    inputs:
+      - "in"
+    type: "console"
+    encoding:
+      codec: "text"
+
+
