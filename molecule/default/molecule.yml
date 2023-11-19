@@ -27,10 +27,9 @@ platforms:
   - name: centos8
     image: docker.io/pycontribs/centos:8
     pre_build_image: false # we don't need ansible installed on the instance
-    command: /sbin/init
+    # command: /sbin/init
     tmpfs:
       - /run
-      - /tmp
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
     privileged: true
