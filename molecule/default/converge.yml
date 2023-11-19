@@ -4,4 +4,4 @@
   tasks:
     - name: "Include vectore"
       include_role:
-        name: "vectore"
+        name: "vector-role"
